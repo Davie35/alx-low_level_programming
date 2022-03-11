@@ -5,7 +5,7 @@
 /**
  *main - Print single digit numbers in the formart
  *
- *Description: Sepaeated by commas
+ *Description: Separated by commas
  *Return: Always(0) Success
  */
 
