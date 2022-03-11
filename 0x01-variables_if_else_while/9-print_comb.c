@@ -5,7 +5,8 @@
 /**
  *main - Print single digit numbers in the formart
  *
- *Description: Separated by commas
+ *Description: Numbers must be separated by , followed by a space
+ *Numbers should be printed in ascending order
  *Return: Always(0) Success
  */
 
