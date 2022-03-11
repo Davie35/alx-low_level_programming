@@ -10,6 +10,8 @@
 
 	int main(void)
 {
+	int=a
+
 	char a = 'a';
 
 	char b = 'A';
@@ -26,4 +28,5 @@
 	}
 	putchar('\n');
 	return (0);
+	
 }
