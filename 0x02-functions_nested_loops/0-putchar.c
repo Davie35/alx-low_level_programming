@@ -1,26 +1,22 @@
-#include <main.h>
+#include <unistd.h>
+#include "main.h"
 
-void printnumber(int n)
+/**
+*main - putchar
+**_putchar print the characters given
+*Return: Always 0 (Success)
+*/
+
+int main (void)
 {
-
-   if (n < 0) {
-       putchar('-');
-       n = -n;
-   }
-
-   if (n == 0)
-      putchar('0');
-
-   if (n/10)
-      printnumber(n/10);
-
-   putchar(n%10 + '0');
-}
-
-int main(int argc, char** argv)
-{
-   int n = atoi(argv[1]);
-   printnumber(n);
-   printf("\n");
-   return = 0
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+	return (0);
 }
