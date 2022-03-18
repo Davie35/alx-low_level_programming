@@ -1,27 +1,23 @@
 #include <stdio.h>
 
 /**
- * main - program that prints out the highest prime
+ * main -  calculate largest prime of 612852475143
  *
- * Return: Always (0)
+ * Return: Success Always
  */
 
 	int main(void)
-
 	{
-	int n, i, d;
+	long int x = 612852475143;
+	long int py;
 
-	d = 50829601;
-	n = 150;
-
-	for (i = 3; i <= n; i = i + 2)
+	for (py = 2; py < x; py++)
 	{
-	while (n % i == 0)
+	if (x % py == 0)
 	{
-	n = n / i;
+	x = x / py;
 	}
 	}
-	printf("%d", d);
-	printf("\n");
+	printf("%ld\n", py);
 	return (0);
 	}
