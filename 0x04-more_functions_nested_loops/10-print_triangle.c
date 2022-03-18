@@ -12,7 +12,7 @@
 	int z;
 	int d;
 	int p;
-	
+
 	if (size > 0)
 	{
 	d = size - 1;
@@ -22,7 +22,7 @@
 	{
 	_putchar (' ');
 	}
-	
+
 	for (p = 0; p <= i; p++)
 	{
 	_putchar (35);
