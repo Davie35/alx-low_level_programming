@@ -1,26 +1,25 @@
-#include "holberton.h"
-
+#include "main.h"
 /**
-  * print_rev - prints string
-  * @s: input string
-  * Return: no return
+ * print_rev - prints a string in reverse order
+ *@s: A pointer to an int that will be changed
+ *
+ *Return: void which means our answer is correct
  */
 
 	void print_rev(char *s)
 	{
-	int count = 0;
+	int i;
 
-	while (*s != '\0')
+	i = 0;
+	while (s[i] != '\0')
 	{
-	s++;
-	count++;
+	i++;
 	}
 
-	while (count > 0)
+	for (i = i - 1 ; i >= 0; i--)
 	{
-	s--;
-	_putchar(*s);
-	count--;
+	_putchar (s[i]);
 	}
-	_putchar('\n');
+
+	_putchar ('\n');
 	}
