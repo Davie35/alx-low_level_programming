@@ -20,6 +20,5 @@
 	}
 
 	*head = prev;
-
 	return (*head);
 	}
